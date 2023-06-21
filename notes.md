@@ -13,6 +13,11 @@ As a user I can:
 - [X] Set element attributes with data from dishObj
 
 3. Click a menu item and see it's detaisl displayed in the Dish detail section
+- [X] Add event listeners to each <span> in menu
+- [X] Listen for 'click' event and then handle with call back
+- [X] Use renderDetail as event handler
+
+
 4. Add menu items to 'my cart' Cart only needs to increment when the same dish is selected, but can reset when another is selected
 
 

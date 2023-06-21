@@ -18,10 +18,11 @@ function getAllDishes(url) {
 
 // Event handlers
 
-// Render functions
+// Render functions //give your functions one job to do
 function renderInMenu(dishObj){
     const span = document.createElement("span");
     span.textContent = dishObj.name;
+    span.addEventListener('click', () => renderDetail(dishObj))
     menu.append(span)
 }
 
